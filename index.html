@@ -111,6 +111,11 @@
 			.layer {
 				background-image: url("./layered-waves-haikei.svg");
 			}
+			.flip {
+				/* transform: ; */
+                rotate: 180deg;
+                height: 100%;
+			}
 		</style>
 	</head>
 	<body>
@@ -193,7 +198,8 @@
 				officia recusandae nesciunt similique.
 			</p>
 		</section>
-		<section>
+		<div class="spacer layer flip"></div>		
+		<section class="red">
 			<h1>Nice Curves</h1>
 			<p>
 				Natus nisi nostrum ullam autem optio nesciunt! A itaque
@@ -202,6 +208,7 @@
 				dicta perspiciatis, quia possimus.
 			</p>
 		</section>
+        <div class="spacer layer"></div>
 		<section>
 			<h1>Nice Curves</h1>
 			<p>
