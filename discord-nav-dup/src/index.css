@@ -4,8 +4,11 @@
 
 @layer components {
 	.sidebar-icon {
-		@apply transition-all ease-linear relative flex items-center justify-center h-12 w-12 my-2 shadow-lg bg-gray-100 text-violet-800 rounded-full p-2 cursor-pointer
-                hover:bg-gray-900 hover:text-violet-100 hover:rounded-xl;
+		@apply transition-all ease-linear relative flex items-center justify-center h-12 w-12 my-2 shadow-sm rounded-full p-2 cursor-pointer
+                bg-gray-100 text-violet-800
+                dark:bg-violet-800 dark:text-gray-100 dark:shadow-gray-100
+                hover:bg-gray-900 hover:text-violet-100 hover:rounded-xl
+                 dark:hover:bg-gray-100 dark:hover:text-violet-800;
 	}
 	.sidebar-tooltip {
 		@apply absolute p-2 px-4 left-20 w-auto min-w-max rounded-md shadow-md text-white bg-gray-900 text-xs font-bold 
