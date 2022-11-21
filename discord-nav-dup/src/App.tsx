@@ -1,6 +1,7 @@
 import "./App.css";
 import SideBar from "./sidebar";
 import { useDarkMode } from "usehooks-ts";
+import Clock from "./clock";
 
 export default function App() {
 	const { isDarkMode } = useDarkMode();
@@ -11,6 +12,7 @@ export default function App() {
 			}`}
 		>
 			<SideBar />
+			<Clock />
 		</div>
 	);
 }
